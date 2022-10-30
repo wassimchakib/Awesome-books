@@ -182,7 +182,7 @@ main .content h1 {
   align-items: center;
 }
 
-.book-list table tr:nth-child(odd) {
+.book-list table tbody:nth-child(odd) {
   background-color: var(--secondary-color);
 }
 
@@ -193,11 +193,11 @@ main .content h1 {
   padding: 0.5rem 0;
 }
 
-.book-list table tr:nth-child(even) .remove-btn:hover {
+.book-list table tbody:nth-child(even) .remove-btn:hover {
   background-color: var(--secondary-color);
 }
 
-.book-list table tr:nth-child(odd) .remove-btn:hover {
+.book-list table tbody:nth-child(odd) .remove-btn:hover {
   background-color: var(--primary-color);
 }
 

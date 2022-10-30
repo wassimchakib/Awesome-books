@@ -16,45 +16,21 @@
     <nav>
       <h3>Awesome Books</h3>
       <ul>
-        <li><a href="">List</a></li>
-        <li><a href="">Add new</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a class="show-btn" href="#">List</a></li>
+        <li><a class="add-btn" href="#">Add new</a></li>
+        <li><a class="contact-btn" href="#">Contact</a></li>
       </ul>
     </nav>
-    <h3 class="date">Today's Date</h3>
+    <h3 class="date"></h3>
   </header>
 
   <!-- main content -->
   <main>
     <div class="content">
-      <h1>All awesome books</h1>
+      <h1 class="title"></h1>
       <!-- Show book list  -->
       <div class="book-list">
-        <table>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Book by</td>
-            <td><button class ="remove-btn" type="submit">Remove</button></td>
-          </tr>
+        <table class="book-table">
         </table>
       </div>
 
@@ -64,7 +40,7 @@
           <input type="text" placeholder="Title">
           <input type="text" placeholder="Author">
           <div class="submit-btn">
-            <button type="submit">Add</button>
+            <button id="add-btn" type="submit">Add</button>
           </div>
         </form>
       </div>
