@@ -36,6 +36,10 @@ table {
   border-collapse: collapse;
 }
 
+address {
+  display: inline;
+}
+
 :root {
   /* colors */
   --primary-color: #fff;
@@ -227,6 +231,29 @@ main .content h1 {
 
 .add-book .send-book .submit-btn {
   text-align: end;
+}
+
+/*================================*\
+            Contact Info
+*\================================*/
+
+.contact-info {
+  padding-top: var(--size-6);
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--size-1);
+}
+
+.contact-info.active {
+  display: flex;
+}
+
+.contact-info ul {
+  list-style: disc;
 }
 
 /*================================*\
