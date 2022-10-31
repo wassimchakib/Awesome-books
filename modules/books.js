@@ -3,7 +3,7 @@ export default class Books {
     this.listOfBooks = JSON.parse(localStorage.getItem('books')) || [];
   }
 
-  addBook(title, author) {
+  addBook = (title, author) => {
     // Add new book into the existing array of books
     this.listOfBooks.push({
       title,
@@ -13,7 +13,7 @@ export default class Books {
     localStorage.setItem('books', JSON.stringify(this.listOfBooks));
   }
 
-  removeBook(id) {
+  removeBook = (id) => {
     // Remove the item that has index of id
     this.listOfBooks.splice(id, 1);
     // Replace old object of books with the new updated one
