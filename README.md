@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://wassimchakib.github.io/Awesome-books/)
 
 
 ## Getting Started
@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 Clone this repository by using the command line : 
-`git clone `
+`git clone https://github.com/wassimchakib/Awesome-books.git`
 
 ### Install
 
